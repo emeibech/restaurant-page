@@ -20,7 +20,7 @@ module.exports = {
         },
         port: 3000,
         open: true,
-        hot: true,
+        hot: false,
         compress: true,
         historyApiFallback: true,
     },
@@ -50,5 +50,5 @@ module.exports = {
             filename: 'index.html',
             template: 'src/template.html'
         })
-    ]
+    ],
 }

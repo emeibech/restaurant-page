@@ -1,7 +1,39 @@
+@font-face {
+    font-family: lobster;
+    src: url('../assets/fonts/Lobster-Regular.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: aleg;
+    src: url('../assets/fonts/Alegreya-VariableFont_wght.ttf');
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body {
     background-image: url('../assets/images/tim-toomey-STqHLqMne3k-unsplash-min.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+}
+
+nav {
+    /* border: 1px solid slateblue; */
+    display: flex;
+    place-content: center;
+    gap: clamp(1rem, calc(0.6rem + 6vw), 10rem);
+    margin-top: clamp(0.5rem, calc(0.5rem + 5vw), 2rem);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: lobster;
+    font-size: clamp(1.5rem, calc(1.5rem + 2vw), 5rem);
 }
