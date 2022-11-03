@@ -37,3 +37,16 @@ nav a {
     font-family: lobster;
     font-size: clamp(1.5rem, calc(1.5rem + 2vw), 5rem);
 }
+
+.header {
+    /* border: 1px solid floralwhite; */
+    text-align: center;
+    margin-top: 10rem
+}
+
+h1 {
+    /* border: 1px solid seagreen; */
+    color: white;
+    font-family: lobster;
+    font-size: 10rem;
+}
