@@ -36,12 +36,17 @@ module.exports = {
             {
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
                 type: 'asset/resource'
+            },
+
+            {
+                test: /\.(woff|woff2|eot|ttf|otf)$/i,
+                type: 'asset/resource',
             }
         ]
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Restaurant Page',
+            title: 'Good Eatin\'',
             filename: 'index.html',
             template: 'src/template.html'
         })

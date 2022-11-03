@@ -1,3 +1,7 @@
 body {
-    background-color: burlywood;
+    background-image: url('../assets/images/tim-toomey-STqHLqMne3k-unsplash-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
