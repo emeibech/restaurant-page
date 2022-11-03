@@ -48,5 +48,13 @@ h1 {
     /* border: 1px solid seagreen; */
     color: white;
     font-family: lobster;
-    font-size: 10rem;
+    font-size: clamp(1.3rem, calc(1.3rem + 13vw), 13rem);
+    line-height: clamp(1.3rem, calc(1.3rem + 13vw), 10rem);
+}
+
+h2 {
+    /* border: 1px solid hotpink; */
+    color: white;
+    font-family: aleg;
+    font-size: clamp(1rem, calc(1rem + 4vw), 4rem);
 }
