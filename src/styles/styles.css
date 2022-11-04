@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: url('../assets/images/tim-toomey-STqHLqMne3k-unsplash-min.jpg');
+    background-image: url('../assets/images/tim-toomey-STqHLqMne3k-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -41,7 +41,7 @@ nav a {
 .header {
     /* border: 1px solid floralwhite; */
     text-align: center;
-    margin-top: 10rem
+    margin-top: clamp(5rem, calc(5rem + 5vh), 10rem);
 }
 
 h1 {
