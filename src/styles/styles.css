@@ -5,9 +5,15 @@
 }
 
 @font-face {
-    font-family: aleg;
-    src: url('../assets/fonts/Alegreya-VariableFont_wght.ttf');
+    font-family: indie;
     font-display: swap;
+    src: url('../assets/fonts/IndieFlower-Regular.ttf');
+}
+
+@font-face {
+    font-family: dosis;
+    font-display: swap;
+    src: url('../assets/fonts/Dosis-Regular.ttf');
 }
 
 * {
@@ -35,7 +41,7 @@ nav a {
     text-decoration: none;
     color: white;
     font-family: lobster;
-    font-size: clamp(1.5rem, calc(1.5rem + 2vw), 5rem);
+    font-size: clamp(1.5rem, calc(1.3rem + 2vw), 5rem);
 }
 
 .header {
@@ -55,6 +61,25 @@ h1 {
 h2 {
     /* border: 1px solid hotpink; */
     color: white;
-    font-family: aleg;
-    font-size: clamp(1rem, calc(1rem + 4vw), 4rem);
+    font-family: indie;
+    font-size: clamp(1rem, calc(0.8rem + 3vw), 4rem);
+}
+
+main {
+    height: 100vh;
+    background-color: #1a0000;
+    margin-top: clamp(5rem, calc(5rem + 13vh), 13rem);
+    /* opacity: 0.7; */
+}
+
+.copy p {
+    /* border: 1px solid snow; */
+    color: rgb(185, 171, 171);
+    font-family: dosis;
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    width: 600px;
+    padding-inline: 6rem;
+    padding-block: 3rem;
+    line-height: 1.5rem;
 }
