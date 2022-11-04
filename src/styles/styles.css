@@ -80,10 +80,17 @@ main {
     padding-inline: 1rem;
 }
 
+main div {
+    padding-block: 1rem;
+}
+
+main div h3 {
+    font-family: indie;
+    text-align: center;
+}
+
 .testimonial {
     border: 1px solid seagreen;
-    grid-column: 1 / 2;
-    padding: 2rem;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -91,7 +98,7 @@ main {
 
 .book {
     border: 1px solid snow;
-    grid-column: 2 / span 2;
+    color: white;
 }
 
 .info {
@@ -100,7 +107,7 @@ main {
 
 .testimonial h3 {
     color: white;
-    font-family: indie;
+    /* font-family: indie; */
     align-self: center;
 }
 
@@ -111,6 +118,7 @@ main {
     line-height: 1.6rem;
     font-size: 1.1rem;
     letter-spacing: 1px;
+    padding-inline: 7rem;
 }
 
 .testimonial .attr {
@@ -121,6 +129,15 @@ main {
     font-weight: bold;
     color: white;
 }
+
+.book form {
+    display: flex;
+    flex-direction: column;
+    font-family: dosis;
+    font-size: 1.1rem;
+    padding-inline: 7rem;
+}
+
 
 /* svg */
 .socials {
