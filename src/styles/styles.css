@@ -31,7 +31,6 @@ body {
 }
 
 nav {
-    /* border: 1px solid slateblue; */
     display: flex;
     place-content: center;
     gap: clamp(1rem, calc(0.6rem + 6vw), 10rem);
@@ -46,33 +45,31 @@ nav a {
 }
 
 .header {
-    /* border: 1px solid floralwhite; */
     text-align: center;
-    margin-top: clamp(4rem, calc(4rem + 4vh), 10rem);
+    margin-top: clamp(4rem, calc(4rem + 4vw), 10rem);
+    
 }
 
 h1 {
-    /* border: 1px solid seagreen; */
     color: white;
     font-family: lobster;
     font-size: clamp(1.3rem, calc(1.3rem + 13vw), 13rem);
     line-height: clamp(1.3rem, calc(1.3rem + 13vw), 10rem);
     cursor: default;
+    text-shadow: 0px 0px 3px #a79292;
 }
 
 h2 {
-    /* border: 1px solid hotpink; */
     color: white;
     font-family: indie;
     font-size: clamp(1rem, calc(1rem + 3vw), 4rem);
     cursor: default;
+    text-shadow: 0px 0px 3px #a79292;
 }
 
 main {
-    /* border: 1px solid seashell; */
-    /* height: 100%; */
     background-color: #1a0000;
-    margin-top: clamp(2rem, calc(2rem + 5vh), 13rem);
+    margin-top: clamp(2rem, calc(2rem + 15vh), 20rem);
     background-attachment: fixed;
     background-size: cover;
     display: grid;
@@ -80,40 +77,21 @@ main {
 }
 
 main div {
-    padding-block: 1rem;
+    padding-block: 2rem;
     padding-inline: clamp(0.5rem, calc(0.5rem + 5vw), 13rem);
     color: white;
 }
 
-main div h3 {
-    font-family: indie;
-    /* text-align: center; */
-}
+main div h3 {font-family: indie;}
 
 .testimonial {
-    /* border: 1px solid seagreen; */
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-/* .book {
-    border: 1px solid snow;
-} */
-
-/* .extra {
-    border: 1px solid aquamarine;
-} */
-
-.testimonial h3 {
-    color: white;
-    /* font-family: indie; */
-    /* align-self: center; */
-}
-
 .testimonial p {
-    /* border: 1px solid snow; */
-    color: rgb(212, 199, 199);
+    color: #cab5b5;
     font-family: dosis;
     line-height: 1.6rem;
     font-size: 1.1rem;
@@ -121,7 +99,6 @@ main div h3 {
 }
 
 .testimonial .attr {
-    /* border: 1px solid salmon; */
     font-family: indie;
     align-self: flex-end;
     font-size: 1.1rem;
@@ -130,7 +107,8 @@ main div h3 {
 }
 
 label {
-    margin-bottom: 0.5rem;
+    margin-bottom: 4px;
+    color: #cab5b5;
 }
 
 .book form {
@@ -139,17 +117,17 @@ label {
     font-family: dosis;
     font-size: 1.1rem;
     margin-top: 1rem;
-    /* border: 1px solid seashell; */
 }
 
 input,
 textarea {
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     background-color: #1a0000;
     border-top: none;
     border-right: none;
     border-left: none;
+    border-bottom: 1px solid #cab5b5;
 }
 
 textarea:focus, input:focus {
@@ -167,13 +145,8 @@ form button {
     color: #1a0000;
 }
 
-.extra h3 {
-    margin-bottom: 1rem;
-}
-
-.extra p {
-    font-family: dosis;
-}
+.extra h3 {margin-bottom: 1rem;}
+.extra p {font-family: dosis;}
 
 main a {
     text-decoration: none;
@@ -183,9 +156,7 @@ main a {
     color: #5fc0b0;
 }
 
-main a:visited {
-    color: #916f9e;
-}
+main a:visited {color: #916f9e;}
 
 /* svg */
 .socials {
@@ -204,4 +175,14 @@ svg {
 path {
     stroke: white;
     stroke-width: 1.8;
+}
+
+@media only screen and (max-width: 599px) {
+
+    main {gap: 2rem;}
+
+    .book {grid-row: 1 / span 1;}
+
+    .testimonial,
+    .extra {border-top: 1px solid #301a1a;}
 }
