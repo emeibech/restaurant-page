@@ -53,7 +53,7 @@ nav a {
 h1 {
     color: white;
     font-family: lobster;
-    font-size: clamp(1.3rem, calc(1.3rem + 13vw), 13rem);
+    font-size: clamp(1.3rem, calc(1.3rem + 13vw), 11rem);
     line-height: clamp(1.3rem, calc(1.3rem + 13vw), 10rem);
     cursor: default;
     text-shadow: 0px 0px 3px #a79292;
