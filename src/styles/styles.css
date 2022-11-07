@@ -54,9 +54,10 @@ h1 {
     color: white;
     font-family: lobster;
     font-size: clamp(1.3rem, calc(1.3rem + 13vw), 11rem);
-    line-height: clamp(1.3rem, calc(1.3rem + 13vw), 10rem);
+    line-height: clamp(1.3rem, calc(1.3rem + 8vw), 10rem);
     cursor: default;
     text-shadow: 0px 0px 3px #a79292;
+    margin-bottom: clamp(0.1rem, calc(0.3rem + 2vw), 0.8rem);
 }
 
 h2 {
