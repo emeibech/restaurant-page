@@ -165,14 +165,13 @@ main a:visited {color: #916f9e;}
 /* svg */
 .socials {
     display: flex;
-    gap: 0.5rem;
-    padding: 1rem;
+    gap: 0.4rem;
     padding: 0;
 }
 
 svg {
     cursor: pointer;
-    height: clamp(24px, calc(16px + 1vw), 1.5rem);
+    height: clamp(24px, calc(24px + 1vw), 1.6rem);
 }
 
 path {
