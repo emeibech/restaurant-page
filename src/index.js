@@ -2,8 +2,9 @@ import 'normalize.css';
 import './styles/styles.css';
 import { navMenu } from './navMenu';
 import { header } from './home/header';
+import { main } from './home/main'
 
-const content = document.querySelector('#content');
 
 navMenu();
 header();
+main();
