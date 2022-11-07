@@ -145,9 +145,11 @@ form button {
 }
 
 .extra h3 {margin-bottom: 1rem;}
+
 .extra p {
     font-family: dosis;
     margin-top: 8px;
+    font-size: 1.1rem;
 }
 
 main a {
