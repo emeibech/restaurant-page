@@ -179,10 +179,23 @@ path {
     stroke-width: 1.8;
 }
 
-@media only screen and (max-width: 599px) {
+@media screen and (max-width: 599px) {
 
     main {gap: 2rem;}
 
     .book {grid-row: 1 / span 1;}
 
+}
+
+@media screen and (min-height: 1024px) and (min-width: 700px) {
+    main {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {background-image: url('../assets/images/mobile.jpg');}
 }
