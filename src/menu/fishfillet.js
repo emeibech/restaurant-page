@@ -1,7 +1,7 @@
 import src from '../assets/images/fish-fillet.jpg';
 
 export const fishfillet = () => {
-    const foods = document.querySelector('.menu');
+    const foods = document.querySelector('.foods');
     const goldFishFillet = document.createElement('div');
     const img = document.createElement('img');
     img.src = src;

@@ -1,7 +1,7 @@
 import src from '../assets/images/rotisserie.jpg';
 
 export const rotisserie = () => {
-    const foods = document.querySelector('.menu');
+    const foods = document.querySelector('.foods');
     const rotisserieOwl = document.createElement('div');
     const img = document.createElement('img');
     img.src = src;

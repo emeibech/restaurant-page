@@ -1,8 +1,7 @@
 import src from '../assets/images/enchilada.jpg';
 
 export const enchilada = () => {
-    const foods = document.createElement('div');
-    foods.classList.add('menu');
+    const foods = document.querySelector('.foods');
     const possumEnchilada = document.createElement('div');
     const img = document.createElement('img');
     img.src = src;

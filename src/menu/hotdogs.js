@@ -1,7 +1,7 @@
 import src from '../assets/images/hotdogs.jpg';
 
 export const hotdogs = () => {
-    const foods = document.querySelector('.menu');
+    const foods = document.querySelector('.foods');
     const hotdogsRoulette = document.createElement('div');
     const img = document.createElement('img');
     img.src = src;

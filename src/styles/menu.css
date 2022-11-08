@@ -1,4 +1,4 @@
-.menu {
+.foods {
     /* border: 1px solid skyblue; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -9,7 +9,7 @@
     gap: clamp(1rem, calc(0.3rem + 2vw), 4rem);
 }
 
-.menu div {
+.foods div {
     /* border: 1px solid salmon; */
     color: white;
     font-family: dosis;
@@ -28,7 +28,7 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
-    .menu {
+    .foods {
         padding-inline: clamp(1px, calc(1px + 1vw), 10rem);
         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     }

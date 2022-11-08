@@ -1,7 +1,8 @@
 import src from '../assets/images/bbq-ribs.jpg';
 
 export const bbqribs = () => {
-    const foods = document.querySelector('.menu');
+    const foods = document.createElement('div');
+    foods.classList.add('foods');
     const gatorBurger = document.createElement('div');
     const img = document.createElement('img');
     img.src = src;

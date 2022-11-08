@@ -1,7 +1,7 @@
 import src from '../assets/images/wings.jpg';
 
 export const wings = () => {
-    const foods = document.querySelector('.menu');
+    const foods = document.querySelector('.foods');
     const pigeonWings = document.createElement('div');
     const img = document.createElement('img');
     img.src = src;

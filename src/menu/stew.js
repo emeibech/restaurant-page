@@ -1,7 +1,7 @@
 import src from '../assets/images/stew.jpg';
 
 export const stew = () => {
-    const foods = document.querySelector('.menu');
+    const foods = document.querySelector('.foods');
     const monkeyStew = document.createElement('div');
     const img = document.createElement('img');
     img.src = src;

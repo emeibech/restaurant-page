@@ -1,7 +1,7 @@
 import src from '../assets/images/nachos.jpg';
 
 export const nachos = () => {
-    const foods = document.querySelector('.menu');
+    const foods = document.querySelector('.foods');
     const squirrelNachos = document.createElement('div');
     const img = document.createElement('img');
     img.src = src;

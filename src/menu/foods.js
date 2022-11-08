@@ -13,9 +13,9 @@ import { smoked } from "./smoked";
 import { stew } from "./stew";
 
 export const foods = () => {
-    enchilada();
     bbqribs();
     burger();
+    enchilada();
     fishfillet();
     hotdogs();
     nachos();
