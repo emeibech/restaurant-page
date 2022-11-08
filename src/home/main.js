@@ -3,7 +3,7 @@ import { book } from "./book";
 import { extra } from "./extra";
 
 
-export let main = () => {
+export const main = () => {
     testimonial();
     book();
     extra();

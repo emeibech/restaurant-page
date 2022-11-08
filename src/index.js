@@ -1,10 +1,7 @@
 import 'normalize.css';
 import './styles/styles.css';
-import { navMenu } from './navMenu';
-import { header } from './home/header';
-import { main } from './home/main'
+import { home } from './home/home';
+import { menu } from "./menu/menu";
 
-
-navMenu();
-header();
-main();
+// home();
+menu();
