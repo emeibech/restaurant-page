@@ -10,7 +10,7 @@ export const fishfillet = () => {
     p1.textContent = 'Goldfish Fillet';
     const p2 = document.createElement('p');
     p2.textContent = '$13.89';
-    goldFishFillet.append(img, p1, p2);
+    goldFishFillet.append(p1, img, p2);
     foods.appendChild(goldFishFillet);
     content.appendChild(foods);
 }

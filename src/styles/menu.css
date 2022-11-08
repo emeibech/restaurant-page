@@ -1,9 +1,35 @@
 .menu {
-    border: 1px solid skyblue;
+    /* border: 1px solid skyblue; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding-block: 2rem;
+    padding-inline: clamp(1rem, calc(0.3rem + 4vw), 10rem);
+    background-color: rgba(26, 0, 0, 0.8);
+    margin-top: clamp(4rem, calc(3rem + 3vw), 10rem);
+    gap: clamp(1rem, calc(0.3rem + 2vw), 4rem);
+}
+
+.menu div {
+    /* border: 1px solid salmon; */
     color: white;
     font-family: dosis;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 img {
-    height: 100px;
+    width: clamp(200px, calc(220px + 6vw), 480px);
+}
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        padding-inline: clamp(1px, calc(1px + 1vw), 10rem);
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
 }

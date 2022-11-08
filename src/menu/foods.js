@@ -9,6 +9,8 @@ import { pizza } from "./pizza";
 import { rotisserie } from "./rotisserie";
 import { steak } from "./steak";
 import { wings } from "./wings";
+import { smoked } from "./smoked";
+import { stew } from "./stew";
 
 export const foods = () => {
     enchilada();
@@ -21,4 +23,6 @@ export const foods = () => {
     rotisserie();
     steak();
     wings();
+    smoked();
+    stew();
 }

@@ -11,7 +11,7 @@ export const enchilada = () => {
     p1.textContent = 'Possum Enchilada';
     const p2 = document.createElement('p');
     p2.textContent = '$13.89';
-    possumEnchilada.append(img, p1, p2);
+    possumEnchilada.append(p1, img, p2);
     foods.appendChild(possumEnchilada);
     content.appendChild(foods);
 }

@@ -10,7 +10,7 @@ export const pizza = () => {
     p1.textContent = 'Raccoon Pizza';
     const p2 = document.createElement('p');
     p2.textContent = '$13.89';
-    raccoonPizza.append(img, p1, p2);
+    raccoonPizza.append(p1, img, p2);
     foods.appendChild(raccoonPizza);
     content.appendChild(foods);
 }

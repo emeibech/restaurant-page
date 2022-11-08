@@ -10,7 +10,7 @@ export const nachos = () => {
     p1.textContent = 'Squirrel Nachos';
     const p2 = document.createElement('p');
     p2.textContent = '$13.89';
-    squirrelNachos.append(img, p1, p2);
+    squirrelNachos.append(p1, img, p2);
     foods.appendChild(squirrelNachos);
     content.appendChild(foods);
 }

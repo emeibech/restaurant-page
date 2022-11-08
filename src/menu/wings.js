@@ -10,7 +10,7 @@ export const wings = () => {
     p1.textContent = 'Pigeon Wings';
     const p2 = document.createElement('p');
     p2.textContent = '$13.89';
-    pigeonWings.append(img, p1, p2);
+    pigeonWings.append(p1, img, p2);
     foods.appendChild(pigeonWings);
     content.appendChild(foods);
 }

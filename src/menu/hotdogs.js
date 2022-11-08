@@ -10,7 +10,7 @@ export const hotdogs = () => {
     p1.textContent = 'Hotdogs Roulette';
     const p2 = document.createElement('p');
     p2.textContent = '$13.89';
-    hotdogsRoulette.append(img, p1, p2);
+    hotdogsRoulette.append(p1, img, p2);
     foods.appendChild(hotdogsRoulette);
     content.appendChild(foods);
 }

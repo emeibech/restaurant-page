@@ -10,7 +10,7 @@ export const rotisserie = () => {
     p1.textContent = 'Rotisserie Owl';
     const p2 = document.createElement('p');
     p2.textContent = '$13.89';
-    rotisserieOwl.append(img, p1, p2);
+    rotisserieOwl.append(p1, img, p2);
     foods.appendChild(rotisserieOwl);
     content.appendChild(foods);
 }

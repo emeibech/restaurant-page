@@ -10,7 +10,7 @@ export const steak = () => {
     p1.textContent = 'Tiger Steak';
     const p2 = document.createElement('p');
     p2.textContent = '$13.89';
-    tigerSteak.append(img, p1, p2);
+    tigerSteak.append(p1, img, p2);
     foods.appendChild(tigerSteak);
     content.appendChild(foods);
 }
