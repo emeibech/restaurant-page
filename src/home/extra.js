@@ -14,6 +14,8 @@ export let extra = () => {
     p2.innerHTML = '<p>Copyright @ <a href="https://github.com/emeibech/">emeibech</a> 2022</p>';
     const p3 = document.createElement('p');
     p3.innerHTML = '<a href="https://unsplash.com/photos/STqHLqMne3k">Background image</a> courtesey of <a href="https://unsplash.com/@covertnine">Tim Toomey</a> from <a href="https://unsplash.com">Unsplash</a>';
-    extra.append(h3, socials, p1, p2, p3);
+    const p4 = document.createElement('p');
+    p4.textContent = 'This is satire. Don\'t take this seriously.'
+    extra.append(h3, socials, p1, p2, p3, p4);
     main.appendChild(extra);
 }

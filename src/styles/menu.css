@@ -4,7 +4,7 @@
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     padding-block: 2rem;
     padding-inline: clamp(1rem, calc(0.3rem + 4vw), 10rem);
-    background-color: rgba(26, 0, 0, 0.8);
+    background-color: rgba(26, 0, 0, 0.95);
     margin-top: clamp(4rem, calc(3rem + 3vw), 10rem);
     gap: clamp(1rem, calc(0.3rem + 2vw), 4rem);
 }

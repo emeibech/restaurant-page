@@ -150,6 +150,7 @@ form button {
     font-family: dosis;
     margin-top: 8px;
     font-size: 1.1rem;
+    color: #eee3e3;
 }
 
 main a {
@@ -172,11 +173,16 @@ main a:visited {color: #916f9e;}
 svg {
     cursor: pointer;
     height: clamp(24px, calc(24px + 1vw), 1.6rem);
+    
 }
 
 path {
     stroke: white;
     stroke-width: 1.8;
+}
+
+svg:active {
+    fill: #5fc0b0;
 }
 
 @media screen and (max-width: 599px) {
@@ -187,14 +193,14 @@ path {
 
 }
 
-@media screen and (min-height: 1024px) and (min-width: 700px) {
+/* @media screen and (min-height: 1024px) and (min-width: 700px) {
     main {
         position: absolute;
         bottom: 0;
         right: 0;
         left: 0;
     }
-}
+} */
 
 @media screen and (max-width: 600px) {
     body {background-image: url('../assets/images/mobile.jpg');}

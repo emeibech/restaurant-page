@@ -1,19 +1,19 @@
 import { navMenu } from "../home/navMenu";
-import { foods } from "./foods";
+import { contactInfo } from "./contactInfo";
 import { main } from "../home/main";
 import { home } from "../home/home";
-import { contact } from "../contact/contact";
+import { menu } from "../menu/menu";
 
-export const menu = () => {
+export const contact = () => {
     navMenu();
-    foods();
+    contactInfo();
     main();
     document.querySelector('.home').addEventListener('click', () => {
         document.querySelector('#content').innerHTML = '';
         home();
     });
-    document.querySelector('.contact').addEventListener('click', () => {
+    document.querySelector('.menu').addEventListener('click', () => {
         document.querySelector('#content').innerHTML = '';
-        contact();
+        menu();
     });
 }
