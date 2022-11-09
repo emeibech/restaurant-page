@@ -37,3 +37,7 @@ body {
         margin-top: clamp(3rem, calc(3rem + 20vh), 13rem);
     }
 }
+
+@media screen and (max-width: 600px) {
+    body {background-image: url('../assets/images/mobile.jpg');}
+}

@@ -1,4 +1,5 @@
 import '../styles/styles.css';
+import "../styles/contact.css";
 import { navMenu } from "../home/navMenu";
 import { contactInfo } from "./contactInfo";
 import { main } from "../home/main";

@@ -1,4 +1,3 @@
-import '../styles/menu.css'
 import { enchilada } from "./enchilada";
 import { bbqribs } from "./bbqribs";
 import { burger } from "./burger";
