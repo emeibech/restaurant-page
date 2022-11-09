@@ -1,5 +1,4 @@
 .foods {
-    /* border: 1px solid skyblue; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     padding-block: 2rem;
@@ -10,7 +9,6 @@
 }
 
 .foods div {
-    /* border: 1px solid salmon; */
     color: white;
     font-family: dosis;
     font-size: 1.3rem;
@@ -31,5 +29,6 @@ img {
     .foods {
         padding-inline: clamp(1px, calc(1px + 1vw), 10rem);
         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        margin-top: clamp(3rem, calc(3rem + 20vh), 13rem);
     }
 }

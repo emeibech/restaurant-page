@@ -3,8 +3,8 @@
     font-family: dosis;
     font-size: clamp(1rem, calc(0.7rem + 2vw), 1.3rem);
     background-color: rgba(26, 0, 0, 0.95);
-    margin-top: clamp(4rem, calc(3rem + 3vh), 10rem);
-    padding-block: 5rem;
+    margin-top: clamp(4rem, calc(3rem + 3vw), 10rem);
+    padding-block: 4rem;
     padding-inline: clamp(1rem, calc(1rem + 20vw), 35rem);
     display: flex;
     flex-direction: column;
@@ -26,6 +26,6 @@
     .contactInfo {
         padding-inline: clamp(0.1rem, calc(0.3rem + 6vw), 10rem);
         padding-block: clamp(1rem, calc(1rem + 13vw), 10rem);
-        margin-top: clamp(4rem, calc(3rem + 9vh), 10rem);
+        margin-top: clamp(3rem, calc(3rem + 20vh), 13rem);
     }
 }

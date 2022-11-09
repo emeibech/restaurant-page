@@ -193,15 +193,6 @@ svg:active {
 
 }
 
-/* @media screen and (min-height: 1024px) and (min-width: 700px) {
-    main {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
-} */
-
 @media screen and (max-width: 600px) {
     body {background-image: url('../assets/images/mobile.jpg');}
 }
