@@ -7,7 +7,7 @@ export const contactInfo = () => {
     h3.textContent = 'Contact Info';
     const p1 = document.createElement('p');
     p1.classList.add('info');
-    p1.textContent = 'Your feedback means nothing to us. But we are compelled by the state of Michigan to add a contact info page—an unreasanable and unconstitutional demand—because apparently, in their view, it\'s imperative that their constituents are heard, for their opinions matter (NOT TO US THOUGH). If you call or email us, I will find you, butcher you, and add you to the menu. Thank you very much. Have a good day.'
+    p1.textContent = 'Your feedback means nothing to us. But we are compelled by the state of Michigan to add a contact info page—an unreasonable and unconstitutional demand—because apparently, in their view, it\'s imperative that their constituents are heard, for their opinions matter (NOT TO US THOUGH). If you call or email us, I will find you, butcher you, and add you to the menu. Thank you very much. Have a good day.'
     const p2 = document.createElement('p');
     p2.textContent = 'Address: 138 River St, Elk Rapids MI 49629'
     const p3 = document.createElement('p');
