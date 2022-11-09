@@ -27,7 +27,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    /* background-position: center; */
 }
 
 nav {
@@ -75,7 +75,7 @@ h2 {
 
 main {
     background-color: #1a0000;
-    margin-top: clamp(2rem, calc(2rem + 8vh), 13rem);
+    margin-top: clamp(2rem, calc(2rem + 10vh), 13rem);
     background-attachment: fixed;
     background-size: cover;
     display: grid;
