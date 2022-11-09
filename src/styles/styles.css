@@ -27,7 +27,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    /* background-position: center; */
+    background-position: center;
+    background-color: #1a0000;
 }
 
 nav {
@@ -198,6 +199,11 @@ svg:active {
 
 }
 
-@media screen and (max-width: 600px) {
-    body {background-image: url('../assets/images/mobile.jpg');}
+@media screen and (max-width: 798px) {
+    body {
+        background-image: url('../assets/images/mobile.jpg');
+        background-size: auto;
+        background-attachment: auto;
+        background-position: auto;
+    }
 }
