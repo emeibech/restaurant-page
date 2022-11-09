@@ -1,3 +1,11 @@
+body {
+    background-image: url('../assets/images/tim-toomey-STqHLqMne3k-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 .contactInfo {
     color: rgb(231, 212, 212);
     font-family: dosis;

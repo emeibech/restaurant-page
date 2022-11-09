@@ -42,6 +42,11 @@ nav a {
     color: white;
     font-family: lobster;
     font-size: clamp(1.5rem, calc(1.3rem + 2vw), 5rem);
+    cursor: pointer;
+}
+
+nav a:active {
+    color: rgb(230, 209, 209);
 }
 
 .header {

@@ -9,9 +9,6 @@ export let navMenu = () => {
     menu.textContent = 'Menu';
     contact.classList.add('contact')
     contact.textContent = 'Contact';
-    home.setAttribute('href', '#');
-    menu.setAttribute('href', '#');
-    contact.setAttribute('href', '#');
     nav.append(home, menu, contact);
     content.appendChild(nav);
 }

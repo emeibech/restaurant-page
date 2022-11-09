@@ -1,3 +1,4 @@
+import '../styles/styles.css';
 import { navMenu } from "./navMenu";
 import { header } from "./header";
 import { main } from "./main";
